@@ -4,30 +4,7 @@
 #include <stdlib.h>
 
 bool isPalindrome(int x);
-char* longestPalindrome(char* s);
-
-int main()
-{
-    int a = 1234567899;
-    bool out;
-    int hash_array[256] = {0};
-    int *aa = malloc(2 * sizeof(int));
-    for (int i = 0; i < 60; i++)
-    {
-        aa[i] = i;
-    }
-    out = isPalindrome(a);
-    printf("%d\n", out);
-    printf("int 类型的范围: %d 到 %d\n", INT_MIN, INT_MAX);
-    printf("unsigned int 类型的最大值: %u\n", UINT_MAX);
-    printf("short 类型的范围: %d 到 %d\n", SHRT_MIN, SHRT_MAX);
-    printf("unsigned short 类型的最大值: %u\n", USHRT_MAX);
-    printf("long 类型的范围: %ld 到 %ld\n", LONG_MIN, LONG_MAX);
-    printf("unsigned long 类型的最大值: %lu\n", ULONG_MAX);
-    printf("long long 类型的范围: %lld 到 %lld\n", LLONG_MIN, LLONG_MAX);
-    printf("unsigned long long 类型的最大值: %llu\n", ULLONG_MAX);
-    return 0;
-}
+char *longestPalindrome(char *s);
 
 bool isPalindrome(int x)
 {

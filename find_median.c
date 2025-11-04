@@ -2,25 +2,9 @@
 #include <math.h>
 #include <stdlib.h>
 
-double findMedianSortedArrays(int *nums1, int nums1Size, int *nums2, int nums2Size);
+void QuickSort(int *arr, int begin, int end);
 void Buttersort(int *arr, int len);
 void Shellsort(int *arr, int len);
-void QuickSort(int *arr, int begin, int end);
-//
-int main()
-{
-    // int *nums1 = malloc(2*sizeof(int));
-    // int *nums2 = malloc(2*sizeof(int));
-    int nums1Size, nums2Size;
-    int nums1[] = {1, 5, 8, 3, 2};
-    int nums2[] = {-1, 3, 4, 8, 5, 3, 1};
-    nums1Size = 5;
-    nums2Size = 7;
-    double output;
-    output = findMedianSortedArrays(nums1, nums1Size, nums2, nums2Size);
-    printf("%f\n", output);
-    return 1;
-}
 
 double findMedianSortedArrays(int *nums1, int nums1Size, int *nums2, int nums2Size)
 {

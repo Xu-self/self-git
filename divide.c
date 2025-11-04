@@ -1,9 +1,6 @@
 #include <limits.h>
 #include <stdbool.h>
 
-int divide(int dividend, int divisor);
-bool isPowerOfTwo(int n);
-
 int divide(int dividend, int divisor)
 {
 
