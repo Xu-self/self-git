@@ -4,19 +4,6 @@
 int divide(int dividend, int divisor);
 bool isPowerOfTwo(int n);
 
-void main()
-{
-
-    int dividend = 10;
-    int divisor = 3;
-    int quo = divide(dividend, divisor);
-    printf("quo is %d\n", quo);
-
-    int n = 1;
-    bool is = isPowerOfTwo(n);
-    printf("n is %d\n", is);
-}
-
 int divide(int dividend, int divisor)
 {
 
