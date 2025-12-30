@@ -3,5 +3,6 @@
         "stdbool.h": "c",
         "limits.h": "c",
         "math.h": "c"
-    }
+    },
+    "python.analysis.typeCheckingMode": "basic"
 }
